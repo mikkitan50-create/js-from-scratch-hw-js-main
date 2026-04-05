@@ -3,10 +3,10 @@
 
 // your code
 let sum = 0;
-let namber = 1;
+let number = 1;
 
-while (namber <= 20) {
-  sum = sum + namber;
-  namber++;
+while (number <= 20) {
+  sum = sum + number;
+  number++;
   console.log("Сумма =", sum);
 }
