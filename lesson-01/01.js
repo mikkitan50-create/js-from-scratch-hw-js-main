@@ -6,7 +6,10 @@ let sum = 0;
 let number = 1;
 
 while (number <= 20) {
+
   sum = sum + number;
+debugger;
   number++;
   console.log("Сумма =", sum);
+
 }
