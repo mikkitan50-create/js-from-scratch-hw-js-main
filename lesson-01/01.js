@@ -8,8 +8,8 @@ let number = 1;
 while (number <= 20) {
 
   sum = sum + number;
-debugger;
+  // debugger;
   number++;
-  console.log("Сумма =", sum);
+  // console.log("Сумма =", sum);
 
 }
