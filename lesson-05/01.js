@@ -24,3 +24,8 @@ const game = {
     }
   }
 };
+game.addResource("gold", 50)
+game.addResource("lumber", 30)
+game.addResource("food", 10)
+
+console.log(game.resources)
