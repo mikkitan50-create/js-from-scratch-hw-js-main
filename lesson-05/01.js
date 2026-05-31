@@ -23,11 +23,12 @@ const game = {
             this.resources[resource] += amount
         }
     } 
-}
+} 
 
 
-// game.addResource('gold', 50)
-// game.addResource('lumber', 30)
-// game.addResource('food', 10)
+game.addResource('gold', 50)
+game.addResource('lumber', 30)
+game.addResource('stone', 10)
 
-// console.log(game.resources)
+
+console.log(game.resources)
