@@ -29,6 +29,8 @@ const game = {
 game.addResource('gold', 50)
 game.addResource('lumber', 30)
 game.addResource('stone', 10)
+game.addResource('gde', 30)
 
 
 console.log(game.resources)
+
