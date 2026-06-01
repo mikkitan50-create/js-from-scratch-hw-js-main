@@ -17,13 +17,14 @@ const game = {
         stone: 30
     },
     addResource(resource, amount) {
-        if (this.resources[resource] === undefined) {
-            console.log("Invalid resource")
-        } else {
-            this.resources[resource] += amount
-        }
-    } 
-} 
+       if (resource in this.resources) {
+    this.resources[resource] += amount;
+} else {
+    console.log("Invalid resource");
+}
+
+    }
+}
 
 
 game.addResource('gold', 50)
